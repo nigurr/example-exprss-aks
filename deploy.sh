@@ -11,4 +11,4 @@ rm -rf reports
 # bind reports folder so that we can access test reports/coverage data in host system
 docker run \
     -v $PWD/reports:/home/node/app/reports \
-    -d nodejs-sample #-it nodejs-sample /bin/sh
+    nodejs-sample #-it nodejs-sample /bin/sh

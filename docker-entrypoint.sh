@@ -5,6 +5,3 @@ npm run build
 
 echo "********** Running tests **********"
 npm run test
-
-echo "********** Starting application **********"
-npm run start
