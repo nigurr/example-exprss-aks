@@ -4,8 +4,8 @@
 # will be auto created by docker
 rm -rf reports
 
-echo "********** Setting up image **********"
-docker build -t nodejs-sample ./
+#echo "********** Setting up image **********"
+#docker build -t nodejs-sample ./
 
 # bind source folder so that source files are available in container or we can do COPY source in dockerimage
 # bind reports folder so that we can access test reports/coverage data in host system
